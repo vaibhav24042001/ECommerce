@@ -1,0 +1,54 @@
+
+body{
+
+padding-top: 5%;
+background-image: url(./bg.webp);
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.form-login {
+max-width:550px;
+padding:40px;
+border-radius:10px;
+background:#fff;
+margin:0 auto;
+min-height: 400px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.form-login .form-login-heading{
+color:#337ab7;
+font-weight: bold;
+text-align:center;
+text-transform: uppercase;
+
+}
+
+.form-login .form-control {
+position:relative;
+height:auto;
+box-sizing:border-box;
+padding:10px;
+font-size:16px;
+
+}
+
+.form-login input[type="text"] {
+margin-bottom:5px;
+border-bottom-right-radius:0;
+border-bottom-left-radius: 0;
+
+}
+
+.form-login input[type="password"] {
+margin-bottom:10px;
+border-top-left-radius: 0;
+border-top-right-radius:0;
+
+
+}
